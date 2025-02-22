@@ -13,8 +13,38 @@ This project analyzes **mental health awareness** and **workplace resources** us
 
 This dataset comes from a **2014 survey** measuring attitudes towards mental health and the frequency of mental health disorders in the tech workplace.  
 
+### **Survey Questions (Columns)**  
+
+| Column  | Description  |  
+|---|---|  
+| **Timestamp**  | Date survey was filled  |  
+| **Gender**  | Gender identity of surveyed person  |  
+| **Country**  | Country of residence  |  
+| **State**  | US residents only  |  
+| **self_employed**  | Are you self-employed?   |  
+| **family_history**  | Do you have a family history of mental illness?  |  
+| **treatment**  | Have you sought treatment for a mental health condition?  |  
+| **work_interfere**  | If you have a mental health condition, do you feel that it interferes with your work?  |  
+| **no_employees**  | How many employees does your company or organization have?  |  
+| **remote_work**  | Do you work remotely (outside of an office) at least 50% of the time?  |  
+| **tech_company**  | Is your employer primarily a tech company/organization?  |  
+| **benefits**  | Does your employer provide mental health benefits?  |  
+| **care_options**  | Do you know the options for mental health care your employer provides?  |  
+| **wellness_program**  | Has your employer ever discussed mental health as part of an employee wellness program?  |  
+| **seek_help**  | Does your employer provide resources to learn more about mental health issues and how to seek help?  |  
+| **anonymity**  | Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources?  |  
+| **leave**  | How easy is it for you to take medical leave for a mental health condition?  |  
+| **mental_health_consequence**  | Do you think that discussing a mental health issue with your employer would have negative consequences?  |  
+| **phys_health_consequence**  | Do you think that discussing a physical health issue with your employer would have negative consequences?  |  
+| **coworkers**  | Would you be willing to discuss a mental health issue with your coworkers?  |  
+| **supervisors**  | Would you be willing to discuss a mental health issue with your direct supervisor(s)?  |  
+| **mental_health_interview**  | Would you bring up a mental health issue with a potential employer in an interview?  |  
+| **mental_vs_physical**  | Do you feel that your employer takes mental health as seriously as physical health?  |  
+| **obs_consequence**  | Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?  |  
+| **comments**  | Any additional notes or comments?  |  
+
 ## **Process**  
-1️. **Data Cleaning** – Checked for null values, removed unnecessary columns (timestamp, country, state, comments), and standardized gender responses (e.g., *cis male, msle, f, woman → 'Don’t Know'*).  
+1. **Data Cleaning** – Checked for null values, removed unnecessary columns (*timestamp, country, state, comments*), and standardized gender responses (*e.g., cis male, msle, f, woman → 'Don’t Know'*).  
 
 2. **EDA (Exploratory Data Analysis)** – Encoded categorical answers, created a correlation matrix, and analyzed trends. Columns with excessive variables were dropped.  
 
