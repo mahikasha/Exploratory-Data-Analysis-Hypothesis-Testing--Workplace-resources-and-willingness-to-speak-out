@@ -60,6 +60,8 @@ Strong correlation exists between **workplace resources** and **openness about m
 
 ## **Outputs**  
 
+Some of the output looks like:
+
 ### **Correlation Matrix**  
 <img src="https://github.com/user-attachments/assets/2e20a994-ec45-4a69-b0e9-71efe0847c7a" width="500">  
 
